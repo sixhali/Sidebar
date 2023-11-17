@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+
+
+body{
+    background: #F6F4EB;
+}
+
+
+.Sidebar h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px
+}
+
+.Sidebar .icon{
+    font-size: 30px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
