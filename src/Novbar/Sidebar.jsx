@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronCircleRight ,faHouseUser,faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { useState,useEffect } from 'react';
+import { faChevronCircleRight, faHouseUser, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+import { useState, useEffect } from 'react';
 import homeImg from '/src/imgfolder/house.png'
 import homeWhiteImg from '/src/imgfolder/housewhite.png'
 import MoonImg from '/src/imgfolder/night.png'
@@ -60,7 +60,7 @@ function Sidebar() {
        </li>
       </ul>
       <ul className=' ' >
-       <li className={`  inline-flex h-8 absolute top-[240px] left-2   transition-colors rounded-[5px]  gap-10 ${!open ?' hover:bg-[#DCBFFF] w-[29px]  cursor-pointer ':'hover:bg-[#DCBFFF]'} w-[250px] cursor-pointer  `}>
+       <li className={` inline-flex h-8 absolute top-[240px] left-2   transition-colors rounded-[5px]  gap-10 ${!open ?' hover:bg-[#DCBFFF] w-[29px]  cursor-pointer ':'hover:bg-[#DCBFFF]'} w-[250px] cursor-pointer  `}>
          <img src={darkMode? ShopingWhite:ShopingBlack} width={30} alt="" className=' '/>
          <a href="" className={`font-bold text-lg  ${!open&&'scale-0'}`}>Add to Cart </a>
        </li>
