@@ -93,17 +93,6 @@ function Sidebar() {
     
       </div>
      
-    
-    
-    
-     
-  
-  
-   
-  
-  
-  
-  
     </div>
        
   );
